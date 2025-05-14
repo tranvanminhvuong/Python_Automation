@@ -1,0 +1,47 @@
+{
+    "name": "User logs in with valid credentials",
+    "status": "passed",
+    "steps": [
+        {
+            "name": "Given the user opens the SauceDemo website",
+            "status": "passed",
+            "start": 1747151225230,
+            "stop": 1747151227176
+        },
+        {
+            "name": "When the user logs in with username \"standard_user\" and password \"secret_sauce\"",
+            "status": "passed",
+            "start": 1747151227178,
+            "stop": 1747151227303
+        },
+        {
+            "name": "Then the user should be redirected to the products page",
+            "status": "passed",
+            "start": 1747151227303,
+            "stop": 1747151227387
+        }
+    ],
+    "start": 1747151225230,
+    "stop": 1747151227387,
+    "uuid": "b1900e4a-d207-4050-aaf5-6dc16e06ba1f",
+    "historyId": "af4170ed94dd574ea62ec07ffda4f6fe",
+    "fullName": "Login to SauceDemo: User logs in with valid credentials",
+    "labels": [
+        {
+            "name": "severity",
+            "value": "normal"
+        },
+        {
+            "name": "feature",
+            "value": "Login to SauceDemo"
+        },
+        {
+            "name": "framework",
+            "value": "behave"
+        },
+        {
+            "name": "language",
+            "value": "cpython3"
+        }
+    ]
+}

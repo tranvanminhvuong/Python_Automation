@@ -1,0 +1,7 @@
+Feature: Login to SauceDemo # features/web/login.feature:1
+
+  Scenario: User logs in with valid credentials                                     # features/web/login.feature:3
+    Given the user opens the SauceDemo website                                      # features/steps/web_steps.py:11
+    When the user logs in with username "standard_user" and password "secret_sauce" # features/steps/web_steps.py:22
+    Then the user should be redirected to the products page                         # features/steps/web_steps.py:29
+

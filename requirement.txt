@@ -1,0 +1,13 @@
+behave
+selenium
+appium-python-client
+python-dotenv
+faker
+pytest
+pytest-xdist
+requests
+allure-behave
+webdriver-manager
+allure-python-commons
+pillow # Để chụp ảnh màn hình
+allure
